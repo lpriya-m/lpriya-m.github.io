@@ -18,22 +18,16 @@ export interface AboutMe {
 }
 
 export const aboutMe: AboutMe = {
-  name: "Jane R. Smith",
-  title: "Ph.D. Candidate",
-  institution: "Stanford University",
+  name: "Lakshmi Priya Muraleedharan",
+  title: "Senior Researcher",
+  institution: "Dolby Laboratories",
   // Note that links work in the description
   description:
-    "I'm a final-year <a href='https://www.stanford.edu'>PhD candidate</a> working at the intersection of causal inference and machine learning. My research focuses on developing robust, interpretable systems that can reason about cause and effect in complex environments.",
-  email: "______@stanford.edu",
-  imageUrl:
-    "https://images.unsplash.com/photo-1581481615985-ba4775734a9b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  googleScholarUrl: "https://scholar.google.com/citations?user=bWtMl_MAAAAJ",
-  githubUsername: "janesmith",
-  linkedinUsername: "janesmith",
-  twitterUsername: "janesmith",
-  blogUrl: "https://",
-  cvUrl: "https://",
-  institutionUrl: "https://www.stanford.edu",
-  // altName: "",
-  // secretDescription: "I like dogs.",
+    "I’ve always been drawn to the creative side of technology, especially where graphics, perception, and interaction meet. After completing my PhD in computer graphics at IIT Madras, I moved into industry research to work on problems that combine mathematical beauty with user-centered design. I’ve contributed to 3D graphics research, patents, XR prototypes, and engineering solutions that support real-time rendering and visual computing workflows. What motivates me is building tools that make visual creation easier, faster, and more expressive. I value thoughtful execution, collaboration, and learning environments where ideas grow collectively.",
+  imageUrl:"/lakshmi.jpg",
+  email: "lakshmipriya369@gmail.com",
+  googleScholarUrl: "https://scholar.google.com/citations?user=WB628xAAAAAJ",
+  githubUsername: "lpriya-m",
+  linkedinUsername: "lakshmipriyam",
+  cvUrl: "https://lpriya-m.github.io/cv/cv.pdf",
 };
