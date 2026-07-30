@@ -1,30 +1,28 @@
-export interface Experience {
-  date: string;
-  title: string;
-  company: string;
-  description?: string;
+export interface Education {
+  year: string;
+  institution: string;
+  degree: string;
   advisor?: string;
-  manager?: string;
-  companyUrl?: string;
+  thesis?: string;
+  thesisUrl?: string;
 }
 
-export const experienceData: Experience[] = [
+export const educationData: Education[] = [
+  // If you don't want to show education, just make the array empty.
   {
-    date: "Summer 2023",
-    title: "Research Intern",
-    company: "DeepMind",
-    description:
-      "Developed novel algorithms for causal structure learning in reinforcement learning settings",
-    advisor: "Peter Wang",
-    companyUrl: "https://deepmind.com",
+    year: "2014—2019",
+    institution: "Indian Institute of Technology Madras",
+    degree: "Ph.D. in Computational Geometry",
+    advisor: "Prof. M Ramanathan",
   },
   {
-    date: "Summer 2022",
-    title: "Research Intern",
-    company: "Google Research",
-    description:
-      "Worked on improving robustness of large language models to distribution shifts",
-    manager: "Elise Brown",
-    companyUrl: "https://google.com",
+    year: "2010—2012",
+    institution: "National Institute of Technology Hamirpur",
+    degree: "M.Tech. in Computer Science and Engineering",
+  },
+  {
+    year: "2006—2010",
+    institution: "Cochin University of Science and Technology",
+    degree: "B.Tech. in Computer Science and Engineering",
   },
 ];
