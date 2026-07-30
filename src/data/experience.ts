@@ -1,28 +1,22 @@
-export interface Education {
-  year: string;
-  institution: string;
-  degree: string;
+export interface Experience {
+  date: string;
+  title: string;
+  company: string;
+  description?: string;
   advisor?: string;
-  thesis?: string;
-  thesisUrl?: string;
+  manager?: string;
+  companyUrl?: string;
 }
 
-export const educationData: Education[] = [
-  // If you don't want to show education, just make the array empty.
+export const experienceData: Experience[] = [
   {
-    year: "2014—2019",
-    institution: "Indian Institute of Technology Madras",
-    degree: "Ph.D. in Computational Geometry",
-    advisor: "Prof. M Ramanathan",
+    date: "Sep 2023 to Present",
+    title: "Senior Researcher",
+    company: "Dolby Laboratories",
   },
   {
-    year: "2010—2012",
-    institution: "National Institute of Technology Hamirpur",
-    degree: "M.Tech. in Computer Science and Engineering",
-  },
-  {
-    year: "2006—2010",
-    institution: "Cochin University of Science and Technology",
-    degree: "B.Tech. in Computer Science and Engineering",
+    date: "Feb 2020 to Sep 2023",
+    title: "Chief Engineer",
+    company: "Samsung Electronics",
   },
 ];
