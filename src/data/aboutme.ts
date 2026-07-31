@@ -30,5 +30,5 @@ export const aboutMe: AboutMe = {
   githubUsername: "lpriya-m",
   linkedinUsername: "lakshmipriyam",
   cvUrl: "https://lpriya-m.github.io/cv/cv.pdf",
-  secretDescription: "Outside of work, I enjoy reading, exploring new destinations and Indian classical dance" 
+  //secretDescription: "Outside of work, I enjoy reading, exploring new destinations and Indian classical dance" 
 };
