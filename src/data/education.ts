@@ -14,6 +14,8 @@ export const educationData: Education[] = [
     institution: "Indian Institute of Technology Madras",
     degree: "Ph.D. in Computational Geometry",
     advisor: "Prof. M Ramanathan",
+    thesis: "Segmentation and Feature Extraction of CAD Mesh models and their Applications",
+    thesisUrl: "https://lpriya-m.github.io/thesis_phd/thesis_f2.pdf"
   },
   {
     year: "2010—2012",
